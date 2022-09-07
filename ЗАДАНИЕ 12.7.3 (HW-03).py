@@ -6,5 +6,4 @@ per = list(per_cent.values())
 deposit = list(map(lambda x: x * money/100, per))
 deposit_max = max(deposit)
 
-print(deposit)
 print("Максимальная сумма, которую вы можете заработать", deposit_max)
